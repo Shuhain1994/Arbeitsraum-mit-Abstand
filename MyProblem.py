@@ -18,7 +18,7 @@ class MyProblem ( ea.Problem ):
     def __init__(self):
         name = 'MyProblem'
         M = 1  # Initialize M (target dimension)
-        maxormins = [-1]  # Initialize maxormins ( 1: minimize the target; -1: maximize the target)
+        maxormins = [0]  # Initialize maxormins ( 1: minimize the target; -1: maximize the target)
         Dim = 2  # Initialize Dim (dimension of decision variable)
         varTypes = [0] * Dim
         # Initialize varTypes (types of decision variables, element 0 means continuous; 1 means discrete)
